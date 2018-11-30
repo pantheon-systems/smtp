@@ -39,7 +39,7 @@ function smtp_admin_settings() {
   }
 
   // Give info to user that this is a custom module for Pantheon sites with PEG.
-  drupal_set_message(t('This module has been customized for Pantheon Site to work with Pantheon Enterprise, using host 127.0.0.1 to route through the firewall to Client\'s external SMTP server IPs.  The port should be set to the constant PANTHEON_SOIP_NATIONWIDE . The host 127.0.0.1:PANTHEON_SOIP_NATIONWIDE resolves to 216.71.144.16:25'), 'warning');
+  drupal_set_message(t('This module has been customized for Pantheon Site to work with Pantheon Enterprise, using host 127.0.0.1 to route through the firewall to Client\'s external SMTP server IPs.  The port should be set to you PANTHEON_PHP_CONSTANT . The host 127.0.0.1:PANTHEON_PHP_CONSTANT resolves to 216.71.144.16:25'), 'warning');
 
   $form['onoff'] = array(
     '#type'  => 'fieldset',
